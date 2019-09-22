@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question_declaration">This is your dream test</string>
+    <string name="true_Text">true</string>
+    <string name="false_button">false</string>
+
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+
+    <string name="programming_text_question">Is is valid just to learn 3 hours a day <b>programming</b> every single day?</string>
+    <string name="exercise_text_question">Do you have to always <b>work out</b>, at least 3 days a week in order to be successful?</string>
+    <string name="dropshipping_text_question">Is <b>dropshipping</b> going to be your milestone?</string>
+    <string name="next_text">next</string>
+</resources>

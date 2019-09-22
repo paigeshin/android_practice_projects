@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HanjiDelivery</string>
+    <string name="hanjiTitle">HanjiDelivery</string>
+    <string name="trueButton">true</string>
+    <string name="falseButton">false</string>
+    <string name="previous_button">previous button</string>
+    <string name="next_button">next_button</string>
+    <string name="counter_text">0 out of 100</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="wrong_answer">Wrong!</string>
+    <string name="simple_quiz">Simple Quiz</string>
+</resources>
