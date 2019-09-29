@@ -9,4 +9,5 @@
     <string name="correct_answer">Correct!</string>
     <string name="wrong_answer">Wrong!</string>
     <string name="simple_quiz">Simple Quiz</string>
+    <string name="initial_score">0</string>
 </resources>

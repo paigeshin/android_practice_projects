@@ -1,5 +1,6 @@
 package com.example.hanjidelivery.activity;
 
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,12 +24,19 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private static final String SP_SCORE = "SCORE";
+
     private TextView questionTextView;
     private TextView questionCounterTextView;
     private Button trueButton;
     private Button falseButton;
     private ImageButton prevButton;
     private ImageButton nextButton;
+    private TextView tvScore;
+    private int score = 0;
+
+    SharedPreferences scoreSaver;
+    SharedPreferences.Editor scoreEditor;
 
     private int currentQuestionIndex = 0;
     private List<Question> questionList;
@@ -44,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         falseButton = findViewById(R.id.falseButton);
         prevButton = findViewById(R.id.prevButton);
         nextButton = findViewById(R.id.nextButton);
+        tvScore = findViewById(R.id.tvScore);
 
         trueButton.setOnClickListener(this);
         falseButton.setOnClickListener(this);
@@ -60,6 +69,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        //sharedPreference initialization
+        scoreSaver = getSharedPreferences(SP_SCORE, MODE_PRIVATE);
+        scoreEditor = scoreSaver.edit();
+
+        //맨처음 score
+        //Score - 답을 맞출 때마다 score가 10씩 증가.
+        SharedPreferences sharedPreferences = getSharedPreferences(SP_SCORE, MODE_PRIVATE);
+        int savedScore = sharedPreferences.getInt("score", 0);
+        tvScore.setText("Score: " + String.valueOf(savedScore));
+
     }
 
     @Override
@@ -67,10 +86,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.trueButton:
+                if(currentQuestionIndex != 0) {
+                    currentQuestionIndex = (currentQuestionIndex + 1) % questionList.size();
+                }
                 checkAnswer(true);
                 updateQuestion();
                 break;
             case R.id.falseButton:
+                if(currentQuestionIndex != 0) {
+                    currentQuestionIndex = (currentQuestionIndex + 1) % questionList.size();
+                }
                 checkAnswer(false);
                 updateQuestion();
                 break;
@@ -93,9 +118,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int toastMessageId = 0;
         if(userChooseCorrect == answerIsTrue){
             toastMessageId = R.string.correct_answer;
+            score += 10;
+            tvScore.setText("Score: " + String.valueOf(score));
+
             fadeView();
         } else {
             toastMessageId = R.string.wrong_answer;
+
+            if(score > 0) {
+                score -= 10;
+                tvScore.setText("Score: " + String.valueOf(score));
+            }
+
             shakeAnimation();
         }
         Toast.makeText(MainActivity.this, toastMessageId, Toast.LENGTH_SHORT).show();
@@ -129,7 +163,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onAnimationRepeat(Animation animation) {
-
+                cardView.setBackgroundColor(Color.YELLOW);
             }
         });
     }
@@ -155,10 +189,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onAnimationRepeat(Animation animation) {
-                cardView.setCardBackgroundColor(Color.RED);
+                cardView.setBackgroundColor(Color.RED);
             }
         });
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        SharedPreferences sharedPreferences = getSharedPreferences(SP_SCORE, MODE_PRIVATE);
+        int savedScore = sharedPreferences.getInt("score", 0);
+        if(score > savedScore){
+            scoreEditor.putInt("score", score);
+            scoreEditor.apply();
+        }
+
+    }
 }
 
