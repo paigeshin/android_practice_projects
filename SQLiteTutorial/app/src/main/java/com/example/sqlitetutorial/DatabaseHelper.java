@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(db);
-        //기존에 db가 존재하면 굳이 db를 만들지 않는다.
+        //기존에 table이 존재하면 굳이 db를 만들지 않는다.
     }
 
     //insertData - arguments: 저장할 데이터들
