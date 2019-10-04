@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ebf1c99-24a2-424f-8d09-741ee952a236" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/java/com/example/activitynavigationwithbottomnavigationview/SearchActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/java/com/example/activitynavigationwithbottomnavigationview/utils/BottomNavigationViewHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-anydpi/ic_action_alert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-anydpi/ic_action_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-anydpi/ic_action_name.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-anydpi/ic_action_pets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-anydpi/ic_action_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-hdpi/ic_action_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-hdpi/ic_action_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-hdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-hdpi/ic_action_pets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-hdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-mdpi/ic_action_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-mdpi/ic_action_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-mdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-mdpi/ic_action_pets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-mdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xhdpi/ic_action_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xhdpi/ic_action_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xhdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xhdpi/ic_action_pets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xhdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xxhdpi/ic_action_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xxhdpi/ic_action_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xxhdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xxhdpi/ic_action_pets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/drawable-xxhdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/layout/layout_bottom_navigationview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActivityNavigationWithBottomNavigationView/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1RbCzNoqay1Hp2YPob0WoZjWnBD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ebf1c99-24a2-424f-8d09-741ee952a236" name="Default Changelist" comment="" />
+      <created>1569926669677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569926669677</updated>
+      <workItem from="1569926672011" duration="2448000" />
+      <workItem from="1569978371052" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
