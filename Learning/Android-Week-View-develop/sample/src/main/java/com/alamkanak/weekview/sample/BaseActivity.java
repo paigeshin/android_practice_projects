@@ -1,5 +1,6 @@
 package com.alamkanak.weekview.sample;
 
+import android.graphics.Color;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -51,7 +52,6 @@ public abstract class BaseActivity extends AppCompatActivity implements WeekView
 
         // Set long press listener for empty view
         mWeekView.setEmptyViewLongPressListener(this);
-
 
         // Set up a date time interpreter to interpret how the date and time will be formatted in
         // the week view. This is optional.
@@ -149,6 +149,10 @@ public abstract class BaseActivity extends AppCompatActivity implements WeekView
     @Override
     public void onEventClick(WeekViewEvent event, RectF eventRect) {
         Toast.makeText(this, "Clicked " + event.getName(), Toast.LENGTH_SHORT).show();
+        event.setColor(Color.BLUE);
+//        mWeekView.goToToday();
+//        mWeekView.computeScroll();
+        mWeekView.notifyDatasetChanged();
     }
 
     @Override
